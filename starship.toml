@@ -1,0 +1,180 @@
+[aws]
+symbol = "aws "
+
+[azure]
+symbol = "azure "
+
+[battery]
+disabled = true
+
+[character]
+success_symbol = "[>](bold green)"
+error_symbol = "[x](bold red)"
+vicmd_symbol = "[<](bold green)"
+
+[cmake]
+symbol = "cmake "
+
+[cobol]
+symbol = "cobol "
+
+[conda]
+symbol = "conda "
+
+[container]
+symbol = "container "
+
+[crystal]
+symbol = "crystal "
+
+[dart]
+symbol = "dart "
+
+[deno]
+symbol = "deno "
+
+[directory]
+truncation_length = 8
+truncation_symbol = ".../"
+read_only = " RO"
+
+[docker_context]
+symbol = "docker "
+
+[dotnet]
+format = "via [$symbol($version )(target $tfm )]($style)"
+symbol = "dotnet "
+
+[elixir]
+symbol = "elixir "
+
+[elm]
+symbol = "elm "
+
+[erlang]
+symbol = "erlang "
+
+[gcloud]
+symbol = "gcloud "
+
+[git_branch]
+symbol = "git "
+
+[git_commit]
+tag_symbol = " tag "
+
+# git_status is painfully slow in large repos
+[git_status]
+disabled = true
+
+[golang]
+symbol = "golang "
+
+[helm]
+symbol = "helm "
+
+[hostname]
+ssh_only = false
+format = "@[$hostname]($style):"
+
+[java]
+symbol = "java "
+
+[jobs]
+symbol = "+"
+
+[julia]
+symbol = "julia "
+
+[kotlin]
+symbol = "kotlin "
+
+[kubernetes]
+symbol = "kubernetes "
+
+[lua]
+symbol = "lua "
+
+[memory_usage]
+symbol = "memory"
+
+[hg_branch]
+symbol = "hg "
+
+[nim]
+symbol = "nim "
+
+[nix_shell]
+symbol = "nix "
+
+[nodejs]
+symbol = "nodejs "
+
+[ocaml]
+symbol = "ocaml "
+
+[openstack]
+symbol = "openstack "
+
+[package]
+symbol = "pkg "
+
+[perl]
+symbol = "perl "
+
+[php]
+symbol = "php "
+
+[pulumi]
+symbol = "pulumi "
+
+[purescript]
+symbol = "purescript "
+
+[python]
+symbol = "python "
+
+[rlang]
+symbol = "R "
+
+[red]
+symbol = "red "
+
+[ruby]
+symbol = "ruby "
+
+[rust]
+symbol = "rust "
+
+[scala]
+symbol = "scala "
+
+[status]
+disabled = false
+symbol = "E"
+
+[sudo]
+symbol = "sudo "
+
+[swift]
+symbol = "swift "
+
+[terraform]
+symbol = "terraform "
+
+[time]
+disabled = false
+format = "[$time]($style) "
+
+[username]
+format = "[$user]($style)"
+show_always = true
+
+[vagrant]
+symbol = "vagrant "
+
+[vlang]
+symbol = "V"
+
+[zig]
+symbol = "zig "
