@@ -2,7 +2,7 @@
   programs.starship = {
     enable = true;
 
-    presets = [ "plain-text-symbols" ];
+    presets = ["plain-text-symbols"];
 
     settings = {
       battery.disable = true;
