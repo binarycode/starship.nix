@@ -225,7 +225,7 @@ symbol = "solidity "
 
 [status]
 disabled = false
-symbox = "E"
+symbol = "E"
 
 [sudo]
 symbol = "sudo "
