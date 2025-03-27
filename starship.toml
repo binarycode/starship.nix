@@ -227,7 +227,7 @@ symbol = "spack "
 symbol = "solidity "
 
 [status]
-disabled = false;
+disabled = false
 symbox = "E"
 
 [sudo]
