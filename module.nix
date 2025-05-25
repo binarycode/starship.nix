@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   environment = {
-    etc."starship.toml".source = ./starship.toml;
+    etc."starship.toml".text = builtins.readFile ./starship.toml;
     systemPackages = [pkgs.starship];
   };
 
